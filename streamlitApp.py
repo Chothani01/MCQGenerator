@@ -46,7 +46,7 @@ with st.form("user_input"):
                         df = pd.DataFrame(table_data)
                         st.table(df)
                     else:
-                        st.error("Error is the table data")
+                        st.error("Error in the table data")
                     
                 else:
                     st.write(response)
